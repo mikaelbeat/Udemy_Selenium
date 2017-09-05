@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Administrator tests"  preserve-order="true">
+  <test name="Expired A1.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredA1"/>
+    </classes>
+  </test>
+  <test name="Expired contract.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredContract"/>
+    </classes>
+  </test>
+  <test name="Expired drug test.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredDrugTest"/>
+    </classes>
+  </test>
+  <test name="Expired residence permit.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredResidencePermit"/>
+    </classes>
+  </test>
+  <test name="Expired security clearance.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredSecurityClearance"/>
+    </classes>
+  </test>
+  <test name="Expired visa.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredVisa"/>
+    </classes>
+  </test>
+  <test name="Expired health card.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredWorkHealthCard"/>
+    </classes>
+  </test>
+  <test name="Expired working period.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredWorkingPeriod"/>
+    </classes>
+  </test>
+  <test name="Expired work safety card.">
+    <classes>
+       <class name="idmAdminTests_Chrome.EmployeeStatusExpiredWorkSafetyCard"/>
+    </classes>
+  </test>
+</suite>
